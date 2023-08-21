@@ -8,4 +8,8 @@ Environments
 
 python -m venv venv
 
-$ source venv/bin/activate
+source venv/bin/activate
+
+(below maybe without the --user)
+pip install --user ipykernel
+python -m ipykernel install --user --name=venv
