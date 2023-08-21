@@ -1,3 +1,11 @@
+List Coprehension
 even_nums = [x for x in range(21) if x%2 == 0]
 
 odd_even_list = ["Even" if i%2==0 else "Odd" for i in range(5)]
+
+
+Environments
+
+python -m venv venv
+
+$ source venv/bin/activate
