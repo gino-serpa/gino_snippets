@@ -5,10 +5,16 @@ odd_even_list = ["Even" if i%2==0 else "Odd" for i in range(5)]
 
 
 Environments
+Create
+            python -m venv venv
 
-python -m venv venv
 
-source venv/bin/activate
+Activate in windows
+          .\environment\Scripts\activate
+in Linux
+          source venv/bin/activate
+
+
 
 (below maybe without the --user)
 pip install --user ipykernel
